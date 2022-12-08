@@ -1,6 +1,6 @@
-const userNameElement = document.querySelector('.number');
-const headerUserNameElement = document.querySelector('.user-email');
-const localUserName = localStorage.getItem('number');
+const userNameElement = document.querySelector('.user-name');
+const headerUserNameElement = document.querySelector('.user');
+const localUserName = localStorage.getItem('userName');
 const userNameBtn = document.querySelector('#name');
 
 const setUserNameInnerHtml = (name) => {
