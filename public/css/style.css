@@ -126,6 +126,8 @@ section > div.contents {
   width: 830px;
   height: 640px;
   background: white;
+  font-family: 'S-Core Dream';
+  font-style: normal;
 }
 
 div.contents > div.user-name {
@@ -220,3 +222,26 @@ div.contents > div.card-area > div.card > div.alert {
   color: red;
 }
 
+.date-bar{
+width: 709px;
+height: 34px;
+box-sizing: border-box;
+padding-left: 20px;
+background: #E5E5E5;
+border-radius: 7px;
+}
+
+.date-bar > div {
+  float: left;
+  line-height: 34px;
+  font-size: 200;
+  
+}
+
+.date-bar > img {
+  float:right;
+  width: 11px;
+  height: 9px;
+
+  margin-top : 10px
+}
